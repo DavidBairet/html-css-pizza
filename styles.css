@@ -36,6 +36,13 @@ h1{
     radial-gradient(circle at 40% 90%, #a9261d 0 14px, transparent 15px),
     radial-gradient(circle at 90% 50%, #a9261d 0 14px, transparent 15px),
 
+    /* olives noir */
+    radial-gradient(circle at 30% 40%, transparent 0 6px, #2a2a2a 7px 10px, transparent 11px),
+    radial-gradient(circle at 60% 69%, transparent 0 6px, #2a2a2a 7px 10px, transparent 11px),
+    radial-gradient(circle at 33% 69%, transparent 0 6px, #2a2a2a 7px 10px, transparent 11px),
+    radial-gradient(circle at 75% 40%, transparent 0 6px, #2a2a2a 7px 10px, transparent 11px),
+    radial-gradient(circle at 50% 30%, transparent 0 6px, #2a2a2a 7px 10px, transparent 11px),
+
     /* base fromage */
     #ffd56a;
   box-shadow: 0 18px 32px rgba(0,0,0,.2);

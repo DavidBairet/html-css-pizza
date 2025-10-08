@@ -9,6 +9,7 @@ body{
   gap: 16px;
   background: #f5f6f8;
   color: #111;
+  filter: drop-shadow(20px 10px 4px hsl(0, 0%, 50%)); 
 }
 /* Pizza  */
 .pizza{
@@ -16,7 +17,8 @@ body{
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  border: 24px solid #FF8C00;            
+  border: 24px solid #FF8C00;
+             
   background:
    
 
@@ -46,7 +48,6 @@ body{
     radial-gradient(circle at 25% 79%, transparent 0 4px, #008000 5px 12px, transparent 13px),
     /* base fromage */
     #ffd56a;
-  box-shadow: 0 18px 32px rgba(0,0,0,.2);
   
  }
 
@@ -59,5 +60,5 @@ body{
   background: radial-gradient(circle at 50% 55%, #a31010 0 56%, #a31010 57% 100%);
   box-shadow: 0 24px 48px rgba(0,0,0,.2), inset 0 2px 0 #000;
   z-index: -1;
-  filter: blur(5px);
+  
 }

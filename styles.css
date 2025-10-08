@@ -19,18 +19,17 @@ body{
   border-radius: 50%;
   border: 24px solid #FF8C00;
              
-  background:
-   
+  background:   
 
     /* pepperoni  */
-    radial-gradient(circle at 14% 62%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 14% 62%, #a9261d 0 16px, transparent 17px),
     radial-gradient(circle at 80% 25%, #a9261d 0 14px, transparent 15px),
-    radial-gradient(circle at 52% 49%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 52% 49%, #a9261d 0 19px, transparent 20px),
     radial-gradient(circle at 80% 80%, #a9261d 0 14px, transparent 15px),
     radial-gradient(circle at 21% 18%, #a9261d 0 14px, transparent 15px),
-    radial-gradient(circle at 50% 13%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 50% 13%, #a9261d 0 16px, transparent 17px),
     radial-gradient(circle at 40% 90%, #a9261d 0 14px, transparent 15px),
-    radial-gradient(circle at 90% 50%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 90% 50%, #a9261d 0 16px, transparent 17px),
 
     /* olives noir */
     radial-gradient(circle at 29% 42%, transparent 0 4px, #2a2a2a 5px 12px, transparent 13px),
@@ -38,7 +37,8 @@ body{
     radial-gradient(circle at 33% 69%, transparent 0 4px, #2a2a2a 5px 12px, transparent 13px),
     radial-gradient(circle at 75% 40%, transparent 0 4px, #2a2a2a 5px 12px, transparent 13px),
     radial-gradient(circle at 50% 30%, transparent 0 4px, #2a2a2a 5px 12px, transparent 13px),
-    /* olives vert */
+   
+    /* olives verte */
     radial-gradient(circle at 10% 40%, transparent 0 4px, #008000 5px 12px, transparent 13px),
     radial-gradient(circle at 69% 15%, transparent 0 4px, #008000 5px 12px, transparent 13px),
     radial-gradient(circle at 60% 88%, transparent 0 4px, #008000 5px 12px, transparent 13px),
@@ -46,6 +46,7 @@ body{
     radial-gradient(circle at 35% 15%, transparent 0 4px, #008000 5px 12px, transparent 13px),
     radial-gradient(circle at 85% 38%, transparent 0 4px, #008000 5px 12px, transparent 13px),
     radial-gradient(circle at 25% 79%, transparent 0 4px, #008000 5px 12px, transparent 13px),
+    
     /* base fromage */
     #ffd56a;
   

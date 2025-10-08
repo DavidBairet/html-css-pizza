@@ -1,0 +1,53 @@
+/* Centrage de la page  */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body{
+  margin: 0;
+  display: grid;
+  place-items: center;
+  gap: 16px;
+  background: #f5f6f8;
+  color: #111;
+}
+
+h1{
+  margin: 0;
+  font-size: clamp(1.1rem, 1.6vw + 1rem, 1.6rem);
+}
+
+
+.pizza{
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 24px solid #FF8C00;             
+  background:
+   
+
+    /* pepperoni  */
+    radial-gradient(circle at 14% 62%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 80% 25%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 52% 49%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 80% 80%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 21% 18%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 50% 13%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 40% 90%, #a9261d 0 14px, transparent 15px),
+    radial-gradient(circle at 90% 50%, #a9261d 0 14px, transparent 15px),
+
+    /* base fromage */
+    #ffd56a;
+  box-shadow: 0 18px 32px rgba(0,0,0,.2);
+}
+
+/* Assiette  */
+.pizza::before{
+  content: "";
+  position: absolute;
+  inset: -40px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 55%, #a31010 0 56%, #a31010 57% 100%);
+  box-shadow: 0 24px 48px rgba(0,0,0,.2), inset 0 2px 0 #000;
+  z-index: -1;
+}

@@ -10,13 +10,7 @@ body{
   background: #f5f6f8;
   color: #111;
 }
-
-h1{
-  margin: 0;
-  font-size: clamp(1.1rem, 1.6vw + 1rem, 1.6rem);
-}
-
-
+/* Pizza  */
 .pizza{
   position: relative;
   width: 320px;
